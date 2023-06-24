@@ -1,0 +1,192 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+/* nav Bar Top */
+.Top_Icons{
+  background: linear-gradient(to right, #17d0cf 0%, #01a6fd 51%, #17d0cf 100%);
+  
+}
+.Top_Icons li {
+  list-style: none;
+  font-size: 14px; 
+  list-style: none; 
+  font-weight: 500; 
+  color: #fff;
+  border-left: 1px solid #fff;
+  padding: 10px 10px;
+
+}
+
+.Top_Icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Icon li:last-child{
+  border-right: 1px solid #fff;
+}
+
+.Icon a {
+  color: #24528C;
+  padding: 8px;
+  transition: .5s;
+}
+.Icon a:hover{
+  color: #fff;
+}
+
+
+.dropbtn {
+  color: black;
+  font-size: 12px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+.dropdown button {
+  color: #24528C;
+  padding-right: 10px;
+  font-size: 17px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #666;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+/* Top Nav End */
+
+.skyBlue_line {
+  background-color: #17D0CF;
+  width: 50px;
+  height: 2px;
+}
+
+.paragrph{
+  margin-top: 48px 53px 0;
+}
+
+
+.paragrph p {
+  font-size: 20px;
+  color: #333;
+  margin: 0 0 25px;
+}
+.Inspiration{
+  margin-top: 100px;
+}
+
+.Inspiration h2{
+  font-size: 38px;
+  color: #333;
+}
+.Inspiration span{
+  font-weight: 700;
+}
+
+.clc_bg{
+  text-align: center;
+}
+
+.clc_bg{
+  background: url(images/clc-bg.jpg);
+  max-width: 100%;
+  padding: 15px;
+  margin-top: 100px;
+
+}
+
+.clc_logo img{
+  margin: 0 0 40px;
+}
+
+.clc_bg p {
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* FOOTER */
+
+footer {
+  background: #141B23;
+}
+
+.footer li{
+  list-style: none;
+  color: #777;
+  color: #BFC0C1;
+  padding-top: 10px;
+  transition: .5s;
+
+}
+.footer li:hover{
+  color: whitesmoke;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #BFC0C1;
+  transition: .5s;
+}
+.footer a:hover {
+  color: whitesmoke;
+}
+.footer p {
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.footer_row_tow li{
+  color: whitesmoke;
+  list-style: none;
+
+}
+
+.footer_row_tow a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: #BFC0C1;
+  transition: .5s;
+}
+
+.footer_row_tow p {
+  font-size: 11px;
+  color: whitesmoke;
+}
+
+hr {
+  color: #BFC0C1;
+}
+
+.footer_Icon .fa-brands{
+  padding: 10px 11px;
+  color: #fff;
+  border-radius: 50%;
+}
