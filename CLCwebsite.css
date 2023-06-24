@@ -1,0 +1,305 @@
+body{
+  background-color: rgb(241, 241, 241);
+}
+* {
+  margin:0;
+  padding: 0;
+  font-family:Arial
+}
+
+  .topnavbar{
+    background: linear-gradient(to right, #17d0cf 0%, #01a6fd 51%, #17d0cf 100%);
+    display: flex;
+  }
+  .topnavbar a{
+    text-decoration: none;
+color: #fff;
+
+  }
+  .topnavbar ul{
+    display: flex;
+    list-style-type: none;
+gap: 10px;
+  }
+  .topnavbar li{
+    border-right: 1px solid #fff;
+padding: 10px 10px;
+  }
+
+ .icon{
+  display: flex;
+
+}
+ .icon li {
+   list-style-type: none; 
+  padding: 10px;
+  
+
+
+}  
+.clc{
+  background: rgb(247, 245, 245);
+  display: flex;
+
+  /* header */
+  }
+.clc img{
+  width: 90px;
+  height: 75px;
+  padding: 20px;
+}
+
+  .dropbtn {
+  color: #24528c;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  background: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(180, 180, 180, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.top_nav{
+  margin-left: 10%;
+}
+/* slider */
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(245, 245, 245);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev, .next {
+  background-color: rgba(204, 198, 198, 0.8);
+  border-radius: 46%;
+  margin: 14px;
+}
+
+
+.text {
+  color: #f27575;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background: linear-gradient(to bottom,#007aff 0%,#e1e1e1 100%);  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+  background-color: #575757;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 600px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/* row */
+.row{
+  height: 50px;
+  width: 100%;
+  background-color: #1A3761;
+  padding: 13px;
+  color: #fff;
+}
+
+
+/* gallery */
+
+div.gallery {
+  background-color: #17D0CF;
+  margin: 7px;
+
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+    font-size: 25px;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.know{
+  height: 60px;
+  width: 100%;
+  background-color: #1A3761;
+  padding: 18px;
+  color: #fff;
+  font-weight: 700;
+}
+.know p{
+text-align: center;
+justify-content: center;
+}
+.para p{
+color: #A9A3A3;
+font-size: 20px;
+
+}
+.para{
+  text-align: center;
+justify-content: center;
+margin-top: 26px;
+
+}
+.para h6{
+  font-size: 55px;
+  }
+  .para b{
+    font-weight: 800;
+
+  }
+.main{
+  font-size: 18px;
+    background: linear-gradient(to right, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
+    color: #fff;
+width: 35%;
+height: 38px;
+text-align: center;
+justify-content: center;
+margin-left: 35%;
+margin-top: 90px;
+
+}
+.main p{
+  padding: 9px;
+}
+
+.para1 p{
+  color: #A9A3A3;
+  font-size: 20px;
+  
+  }
+  .para1{
+    text-align: center;
+  justify-content: center;
+  margin-top: 77px;
+  
+  }
+  .para1 h6{
+    font-size: 55px;
+    margin-top: -25px;
+
+  }
+  .para1 b{
+    font-weight: 800;
+
+  }
