@@ -41,7 +41,7 @@ padding: 10px 10px;
   background: rgb(247, 245, 245);
   display: flex;
 
-  /* header */
+ /* header  */
   }
 .clc img{
   width: 90px;
@@ -86,7 +86,7 @@ padding: 10px 10px;
 .top_nav{
   margin-left: 10%;
 }
-/* slider */
+slider
 
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif;}
@@ -178,7 +178,7 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 600px) {
   .prev, .next,.text {font-size: 11px}
 }
-/* row */
+
 .row{
   height: 50px;
   width: 100%;
@@ -188,7 +188,7 @@ img {vertical-align: middle;}
 }
 
 
-/* gallery */
+gallery
 
 div.gallery {
   background-color: #17D0CF;
@@ -302,4 +302,4 @@ margin-top: 90px;
   .para1 b{
     font-weight: 800;
 
-  }
+  } 
