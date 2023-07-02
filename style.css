@@ -505,6 +505,26 @@ hr {
   color: #fff;
   border-radius: 50%;
 }
+footer .fa-facebook-f{
+  background-color: #3B5998;
+}
+footer .fa-twitter{
+  background-color: #1DA1F2;
+}
+footer .fa-instagram{
+  background-color: #E95950;
+}
+footer .fa-youtube{
+  background-color: #CD201F;
+}
+footer .fa-flickr{
+background-color: #0063F1;
+}
+footer .fa-google-play {
+  background-color: #69727D;
+}
+
+
 
 .Locations {
   display: flex;
@@ -639,9 +659,16 @@ padding: 8px;
 
 /* Top Nav End */
 
+
+/* Chairman */
+
 .Chairman{
 margin-top: 70px;
 }
+.Chairman img {
+  max-width: 100%;
+}
+
 .Chairman h2{
     font-size: 38px;
     color: #333;
@@ -668,7 +695,6 @@ margin-top: 70px;
     color: #000000;  }
 
 /* .Chairman h2{
-    margin-top: 15px;
 } */
 
 
@@ -745,6 +771,11 @@ margin-top: 70px;
 
 
 /* System */
+
+.System img{
+  max-width: 100%;
+}
+
 
 .System h3 {
     font-size: 24px;
@@ -920,8 +951,12 @@ margin-top: 70px;
 .section-title{
   text-align: center;
 }
+.section-title img {
+  max-width: 100%;
+}
 
 .section-title h2 span {
+  font-size: 4vw;
     font-weight: 700;
 }
 
@@ -1010,7 +1045,9 @@ margin-top: 70px;
 
 
   /* CLC LOCATIONS */
-
+.clc_locatioin_img img {
+  width: 100%;
+}
 
 
 .Head_office h2 {
@@ -1169,7 +1206,7 @@ form{
 
 .section-title h2 {
     color: #333333;
-    font-size: 37px;
+    font-size: 4vw;
     letter-spacing: 2px;
     line-height: 46px;
     margin-bottom: 15px;
