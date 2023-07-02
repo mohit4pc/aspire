@@ -1,0 +1,291 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+/* nav Bar Top */
+
+body{
+  background: #F7F7F7;
+}
+
+.Top_Icons{
+  background: linear-gradient(to right, #17d0cf 0%, #01a6fd 51%, #17d0cf 100%);
+  
+}
+.Top_Icons li {
+  list-style: none;
+  font-size: 14px; 
+  list-style: none; 
+  font-weight: 500; 
+  color: #fff;
+  border-right: 1px solid #fff;
+  padding: 10px 10px;
+
+}
+
+.Top_Icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Icon li:last-child{
+  border-right: 1px solid #fff;
+}
+
+.Icon a {
+  color: #24528C;
+  padding: 8px;
+  transition: .5s;
+}
+.Icon a:hover{
+  color: #fff;
+}
+
+.nav_second{
+background: #fff;
+padding: 8px;
+}
+
+.dropbtn {
+  color: black;
+  font-size: 12px;
+  border: none;
+  background-color: #fff;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+.dropdown button {
+  color: #24528C;
+  padding-right: 10px;
+  font-size: 16px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #666;
+  padding: 12px 16px;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+/* Top Nav End */
+
+
+/* FORM START */
+
+.form_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+form{
+    width: 100%;
+    margin-top: 50px;
+    border: 2px solid #1e73be;
+    padding: 30px 30px 100px 30px;
+    font-size: 14px;
+    background: #F1F1F1;
+
+}
+
+
+
+.form_submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+ 
+#inputState{
+    cursor: pointer;
+}
+#country {
+    width: 100%;
+    padding: 6px 12px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+  input[type=submit] {
+    width: 80px;
+    background-color: #2991D6;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  
+
+/* FOOTER */
+
+footer {
+    background: #141B23;
+    margin-top: 10px;
+  }
+  
+  .footer li{
+    list-style: none;
+    color: #777;
+    color: #BFC0C1;
+    padding-top: 10px;
+    transition: .5s;
+  
+  }
+  .footer li:hover{
+    color: whitesmoke;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #BFC0C1;
+    transition: .5s;
+  }
+  .footer a:hover {
+    color: whitesmoke;
+  }
+  .footer p {
+    font-weight: bold;
+    color: whitesmoke;
+  }
+  
+  .footer_row_tow li{
+    color: whitesmoke;
+    list-style: none;
+  
+  }
+  
+  .footer_row_tow a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #BFC0C1;
+    transition: .5s;
+  }
+  
+  .footer_row_tow p {
+    font-size: 11px;
+    color: whitesmoke;
+  }
+  
+  hr {
+    color: #BFC0C1;
+  }
+  
+  .footer_Icon .fa-brands{
+    padding: 10px 11px;
+    color: #fff;
+    border-radius: 50%;
+  }
+
+.section-title h2 {
+    color: #333333;
+    font-size: 37px;
+    letter-spacing: 2px;
+    line-height: 46px;
+    margin-bottom: 15px;
+}
+.section-title{
+  text-align: center;
+}
+
+
+.section-title .subtitle {
+    color: #a9a3a3;
+    letter-spacing: 7px;
+    position: relative;
+    font-size: 18px;
+}
+
+.section-title .subtitle:before, .section-title .subtitle:after {
+  content: ".";
+  font-size: 70px;
+  left: -45px;
+  pointer-events: none;
+  position: absolute;
+  text-shadow: rgba(0, 0, 0, 0) 0px 0px;
+  top: -10px;
+  line-height: 0;
+  color: #17d0cf;
+  text-shadow: 15px 0 #17d0cf;
+}
+
+.section-title .subtitle:after{
+  right: -28px;
+  left: inherit;
+}
+
+
+
+
+  @media (max-width:990px) {
+    .images_group{
+      padding-bottom: 10px;
+    }
+    .Top_Icons{
+      display: none;
+    }
+  }
+  
+  .Locations {
+    display: flex;
+
+  }
+  .Locations i{
+    margin-top: 40px;
+    margin-right: 10px;
+    color: #BFC0C1;
+    font-size: 30px;
+  }
+
+  .Message {
+    display: flex;
+  }
+  .Message i {
+    margin-top: 30px;
+    margin-right: 10px;
+    color: #BFC0C1;
+    font-size: 30px;
+  }
+
+  
+
+/* CLC STYLE */
+
+
