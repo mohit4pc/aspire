@@ -4,9 +4,7 @@
     box-sizing: border-box;
     font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;;
 }
-.Wrapper{
-  background: #FCFCFC;
-}
+
 #top_nav{
   background: linear-gradient(to right, #17d0cf 0%,#01a6fd 51%, #17d0cf 100%);
 }
@@ -98,7 +96,12 @@ color: #fff;
   }
  
   /* --------------------section-1-------------------- */
-
+  #bg-color {
+    background: #FCFCFC;
+  }
+  .first_sec{
+    padding: 50px 0px;
+  }
   .blue-line{
     background:  #17d0cf;
     width: 50px;

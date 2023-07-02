@@ -28,9 +28,9 @@
   <body>
     <div class="wrapper">
       <div class="header_wrapper">
-        <header>
-          <div id="top_nav">
-            <div class="container">
+        <header >
+          <div id="top_nav ">
+            <div class="container d-none">
               <div class=" column_one">
                 <ul class=" contact_details">
                    <li class="slogan">
@@ -41,7 +41,7 @@
                       <a href="tell:01572-255-500">01572-255-500</a>
                    </li>
                    <li>
-                    <i class="fa-thin fa-envelope"></i>
+                    <i class="fa-solid fa-envelope"></i>
                     <a href="">
                       clcsikar2007@gmail.com
                     </a>
@@ -65,8 +65,8 @@
               <div class="col-md">
               <nav class="navbar navbar-expand-sm">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"
-                    ><img src="image/clc-logo-new.png" height="40px"
+                  <a class="navbar-brand" href="index.html"
+                  ><img src="image/clc-logo-new.png" height="40px"
                   /></a>
                   <button
                     class="navbar-toggler"
@@ -97,10 +97,10 @@
                           <i class="fa-solid fa-star"></i> Courses
                         </button>
                         <div class="dropdown-content">
-                          <a href="#">NEET (UG)</a>
-                          <a href="#">JEE (Main & Advanced)</a>
-                          <a href="#">Pre-Foundation</a>
-                          <a href="#">Distance Learning Programme</a>
+                          <a href="courseNEET.html">NEET (UG)</a>
+                          <a href="courseJEE.html">JEE (Main & Advanced)</a>
+                          <a href="course-pre-fndsn.html">Pre-Foundation</a>
+                          <a href="courseDistance.html">Distance Learning Programme</a>
                         </div>
                       </div>
                       <div class="dropdown">
@@ -117,7 +117,7 @@
                       </div>
                       <div class="dropdown">
                         <button class="dropbtn">
-                          <i class="fa-solid fa-trophy-star"></i> Achievements
+                          <i class="fa-sharp fa-solid fa-trophy"></i> Achievements
                         </button>
                         <div class="dropdown-content">
                           <a href="#">1<sup>st</sup> Achievements</a>
@@ -126,11 +126,11 @@
                       </div>
                       <div class="dropdown">
                         <button class="dropbtn">
-                          <i class="fa-solid fa-clapperboard-play"></i> Gallery
+                          <i class="fa-solid fa-image"></i> Gallery
                         </button>
                         <div class="dropdown-content">
-                          <a href="#">Photo Gallery</a>
-                          <a href="#">Video Gallery</a>
+                          <a href="galleryphoto.html">Photo Gallery</a>
+                          <a href="galleryVideo.html">Video Gallery</a>
                         </div>
                       </div>
                       <div class="dropdown">
@@ -150,10 +150,10 @@
                           <i class="fa-solid fa-phone"></i> Contact
                         </button>
                         <div class="dropdown-content">
-                          <a href="#">CLC Locations</a>
-                          <a href="#">General Enquuiry</a>
-                          <a href="#">Career</a>
-                          <a href="#">Student Help Desk</a>
+                          <a href="contact.html">CLC Locations</a>
+                          <a href="enquire.html">General Enquuiry</a>
+                          <a href="career.html">Career</a>
+                          <a href="student.html">Student Help Desk</a>
                         </div>
                       </div>
                     </ul>
@@ -223,7 +223,7 @@
                       src="image/1-1-scaled.jpg"
                       alt="Los Angeles"
                       class="d-block"
-                      style="width: 100%"
+
                     />
                 </div>
                 <div class="carousel-item">
@@ -319,11 +319,120 @@
               </button>
             </div>
           </div>
-
         </header>
       </div>
-
-               <!-- --------------------------------- section 2--------------------------- -->
+      <!-- ---------enqiure----- -->
+    <section>
+    <div class="row">
+        <div class="col-sm-10">
+      <button type="button"  class="npfWidgetButton npfWidget-d90e9580b423e9579e482106031ece54" style="width:auto;" onclick="document.getElementById('id01').style.display='block'">Enquire Now!</button>
+<div id="id01" class="modal ">
+  <form class="form_fill modal-content animate p-3 " accept-charset="UTF-8"id="form"  action="/action_page.php"  method="POST" enctype="multipart/form-data" target="_blank">
+    <p>Enquire Form</p>
+    <div class="inside_form">
+ 
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <div class="form-group">
+      <input type="text" name="fullname" class="form-control" id="InputName" placeholder="Enter your name and surname" required="required">
+    </div>
+    <div class="form-group">
+      <input type="email" name="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address">
+    </div>
+    <div class="form-group">
+       <input id="phone" type="tel"   class="form-control" name="phone" />
+    </div>
+    <div class="form-row d-flex ">
+      <div class="form-group col-md-6">
+          <select class="form-control" id="inputState">
+              <option value="SelectState">Select State</option>
+              <option value="Andra Pradesh">Andra Pradesh</option>
+              <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+              <option value="Assam">Assam</option>
+              <option value="Bihar">Bihar</option>
+              <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+              <option value="Assam">Assam</option>
+              <option value="Bihar">Bihar</option>
+              <option value="Chhattisgarh">Chhattisgarh</option>
+              <option value="Goa">Goa</option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Haryana">Haryana</option>
+              <option value="Himachal Pradesh">Himachal Pradesh</option>
+              <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+              <option value="Jharkhand">Jharkhand</option>
+              <option value="Karnataka">Karnataka</option>
+              <option value="Kerala">Kerala</option>
+              <option value="Madya Pradesh">Madya Pradesh</option>
+              <option value="Maharashtra">Maharashtra</option>
+              <option value="Manipur">Manipur</option>
+              <option value="Meghalaya">Meghalaya</option>
+              <option value="Mizoram">Mizoram</option>
+              <option value="Nagaland">Nagaland</option>
+              <option value="Orissa">Orissa</option>
+              <option value="Punjab">Punjab</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="Sikkim">Sikkim</option>
+              <option value="Tamil Nadu">Tamil Nadu</option>
+              <option value="Telangana">Telangana</option>
+              <option value="Tripura">Tripura</option>
+              <option value="Uttaranchal">Uttaranchal</option>
+              <option value="Uttar Pradesh">Uttar Pradesh</option>
+              <option value="West Bengal">West Bengal</option>
+              <option disabled style="background-color:#aaa; color:#fff">UNION Territories</option>
+              <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+              <option value="Chandigarh">Chandigarh</option>
+              <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+              <option value="Daman and Diu">Daman and Diu</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Lakshadeep">Lakshadeep</option>
+              <option value="Pondicherry">Pondicherry</option>
+            </select>
+      </div>
+      <div class="form-group col-md-6">
+        
+          <select class="form-control" id="inputDistrict">
+              <option value="">-- select one -- </option>
+          </select>
+        
+      </div>
+    </div>
+  
+    <div class="form-group">
+  
+      <select class="form-select" id="sel1" name="sellist1" aria-placeholder="content">
+          <option selected>Content</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+    </div>
+    <div class="form-row d-flex">
+      <div class="form-group col-md-6">
+       
+        <input type="text" name="city" class="form-control" id="inputCity" placeholder="Istanbul">
+      </div>
+      <div class="form-group col-md-6">
+     
+        <input type="text" name="zip" class="form-control" id="inputZip" placeholder="34000">
+      </div>
+    </div>
+    <div class="d-flex gap-3">
+      <div class="">
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+      </div>
+      <div class="">
+          I agree to receive information regarding my submitted enquiry on Careerline Coaching Institute.*
+      </div>
+    </div>
+   <div id="btn">
+       <button  type="submit" class="btn btn-primary form-sumit">Submit</button>
+   </div>
+  </div>
+  </form>
+</div>
+</div>
+    </div>
+    </section>
+               <!-- --------------------------------- section 1--------------------------- -->
 
            <div class="the_content_has_content">
             <div class="section-_wrapper">
@@ -414,18 +523,18 @@ LEARN NEW SKILLS
               <div class="section-3_img">
                 <div class="row">
                   <div class="col-lg-3  col">
-                  <div class="card_two  " style="width:100%">
+                    <div class="card_pic  " style="width:100%">
                     <img class="card-img-top" src="image/sec3-mg1.jpg" alt="Card image" style="width:100%">
                     <div class="card-body ">
                       <h5 class="card-title">NEET (UG)</h5>
                       <p class="card-text">Leading name with the historic achievement of 35 first Ranks.</p>
-                      <a href="#" class="more_detail"> MORE DETAIL<i class="fa-solid fa-arrow-right"> |</i> </a>
+                      <a href="#" class="more_detail"> MORE DETAIL<i class="fa-solid fa-arrow-right"> </i> </a>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-3  col-md-6">
-                  <div class="card_two " style="width:100%">
-                    <img class="card-img-top" src="image/sec3-img2.jpg" alt="Card image" style="width:100%">
+                  <div class="card_pic " style="width:100%">
+                  <img class="card-img-top" src="image/sec3-img2.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
                       <h5 class="card-title">JEE (Main & Advanced)</h5>
                       <p class="card-text">Experienced, energetic team with updated study Material.</p>
@@ -434,8 +543,8 @@ LEARN NEW SKILLS
                   </div>
                 </div>
                 <div class="col-lg-3  col-md-6">
-                  <div class="card_two" style="width:100%">
-                    <img class="card-img-top" src="image/sec3.img3.jpg" alt="Card image" style="width:100%">
+                  <div class="card_pic" style="width:100%">
+                  <img class="card-img-top" src="image/sec3.img3.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
                       <h5 class="card-title">FOUNDATION COURSE</h5>
                       <p class="card-text">One among the best for excellent performance with XII.</p>
@@ -444,7 +553,7 @@ LEARN NEW SKILLS
                   </div>
                 </div>
                 <div class="col-lg-3  col-md-6">
-                  <div class="card_two " style="width:100%">
+                  <div class="card_pic " style="width:100%">
                     <img class="card-img-top" src="image/sec3-img4.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
                       <h5 class="card-title">PRE - FOUNDATION</h5>
@@ -509,9 +618,116 @@ LEARN NEW SKILLS
         </div>
           </div>
          </section>
+           <section>
+            <div class="container">
+             
+<button class="accordion">Have a questions?</button>
+<div class="panel">
+  <form class="form_fill" accept-charset="UTF-8" action="https://getform.io/f/{your-form-endpoint-goes-here}" method="POST" enctype="multipart/form-data" target="_blank">
+    <div class="form-group">
+      <input type="text" name="fullname" class="form-control" id="InputName" placeholder="Enter your name and surname" required="required">
+    </div>
+    <div class="form-group">
+   
+      <input type="email" name="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address">
+    </div>
+    <div class="form-group">
+      
+       <input id="phone" type="tel"   class="form-control" name="phone" />
+    </div>
+
+    <div class="form-row d-flex ">
+      <div class="form-group col-md-6">
+          <select class="form-control" id="inputState">
+              <option value="SelectState">Select State</option>
+              <option value="Andra Pradesh">Andra Pradesh</option>
+              <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+              <option value="Assam">Assam</option>
+              <option value="Bihar">Bihar</option>
+              <option value="Chhattisgarh">Chhattisgarh</option>
+              <option value="Goa">Goa</option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Haryana">Haryana</option>
+              <option value="Himachal Pradesh">Himachal Pradesh</option>
+              <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+              <option value="Jharkhand">Jharkhand</option>
+              <option value="Karnataka">Karnataka</option>
+              <option value="Kerala">Kerala</option>
+              <option value="Madya Pradesh">Madya Pradesh</option>
+              <option value="Maharashtra">Maharashtra</option>
+              <option value="Manipur">Manipur</option>
+              <option value="Meghalaya">Meghalaya</option>
+              <option value="Mizoram">Mizoram</option>
+              <option value="Nagaland">Nagaland</option>
+              <option value="Orissa">Orissa</option>
+              <option value="Punjab">Punjab</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="Sikkim">Sikkim</option>
+              <option value="Tamil Nadu">Tamil Nadu</option>
+              <option value="Telangana">Telangana</option>
+              <option value="Tripura">Tripura</option>
+              <option value="Uttaranchal">Uttaranchal</option>
+              <option value="Uttar Pradesh">Uttar Pradesh</option>
+              <option value="West Bengal">West Bengal</option>
+              <option disabled style="background-color:#aaa; color:#fff">UNION Territories</option>
+              <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+              <option value="Chandigarh">Chandigarh</option>
+              <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+              <option value="Daman and Diu">Daman and Diu</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Lakshadeep">Lakshadeep</option>
+              <option value="Pondicherry">Pondicherry</option>
+            </select>
+      </div>
+      <div class="form-group col-md-6">
+        
+          <select class="form-control" id="inputDistrict">
+              <option value="">-- select one -- </option>
+          </select>
+        
+      </div>
+    </div>
+  
+    <div class="form-group">
+  
+      <select class="form-select" id="sel1" name="sellist1" aria-placeholder="content">
+          <option selected>Content</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+    </div>
+    <div class="form-row d-flex">
+      <div class="form-group col-md-6">
+       
+        <input type="text" name="city" class="form-control" id="inputCity" placeholder="Istanbul">
+      </div>
+      <div class="form-group col-md-6">
+     
+        <input type="text" name="zip" class="form-control" id="inputZip" placeholder="34000">
+      </div>
+    </div>
+    <div class="d-flex gap-3">
+      <div class="">
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+      </div>
+      <div class="">
+          I agree to receive information regarding my submitted enquiry on Careerline Coaching Institute.*
+      </div>
+    </div>
+   <div id="btn">
+       <button  type="submit" class="btn btn-primary form-sumit">Submit</button>
+   </div>
+  </form>
+</div>
+            </div>
+           </section>
+         
+       
             <!-- -------------section-5 -------------------->
             <section>
               <div class="container mt-5">
+         
                 <div class="row">
                 <div class="col-lg-3 ">
                   <div class=" ">
@@ -650,8 +866,8 @@ LEARN NEW SKILLS
               </div>
             </section>
 
-<!-- ----------------------------section-8--------------------- -->
-            <!-- <section>
+<!-- ----------------------------section-7--------------------- -->
+            <section>
               <div class="container">
                 <div class="row">
                   <div class="col-lg-4">
@@ -664,7 +880,7 @@ LEARN NEW SKILLS
                     <iframe width="360" height="215" src="https://www.youtube.com/embed/k7YRdzirDKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <iframe width="360" height="215" src="https://www.youtube.com/embed/y5wV3OFiPis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <div class="">
-                      <a href="#" class="btn btn-primary"><i class="fa-solid fa-file-video"></i> View All Videos</a>
+                      <a href="https://www.youtube.com/channel/UCDOAygE2Smt9jWB7xpQo6iQ" class="btn btn-primary"><i class="fa-solid fa-file-video"></i> View All Videos</a>
                       
                     </div>
                   </div>
@@ -678,7 +894,7 @@ LEARN NEW SKILLS
                   <div class="iframe_img ">
                     <iframe width="360" height="215" src="https://www.youtube.com/embed/k7YRdzirDKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <iframe width="360" height="215" src="https://www.youtube.com/embed/y5wV3OFiPis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <div class="">  <a href="#" class="btn btn-primary"> <i class="fa-solid fa-file-video"></i> View All Events </a></div>
+                    <div class="">  <a href="galleryVideo.html" class="btn btn-primary"> <i class="fa-solid fa-file-video"></i> View All Events </a></div>
                   </div>
                   </div>
                   <div class="col-lg-4">
@@ -694,14 +910,14 @@ LEARN NEW SKILLS
                   </div>
                 </div>
               </div>
-            </section> -->
-                  <!-- -----------------section-9-------------- -->
+            </section>
+                  <!-- -----------------section-8-------------- -->
             <section>
               <div class="container mt-5">
                 <div class="row">
                   <div class="">
                     <h1>CLC <span style="font-weight:700 ;">Best Study Material</span></h1>
-                    <div class="cs-line"></div>
+                    <div class="blue-line"></div>
                   </div>
                   <div class="col-lg-4 mt-5">
                     <div class="bg-color">
@@ -717,7 +933,7 @@ LEARN NEW SKILLS
                     <img src="image/book 2.png" alt=" book-2">
                     <p   class="mt-2" style="font-weight: 800;">Success Achiever for NEET</p>
                     <p style="font-weight: 500;">6 Book Set</p>
-                    <p style="font-weight: 900;">₹ 12000</p>
+                    <p style="font-weight: 500;">₹ 12000</p>
            
                     </div>
                   </div>
@@ -726,7 +942,7 @@ LEARN NEW SKILLS
                     <img src="image/book 3.png" alt=" book-3">
                     <p class="mt-2" style="font-weight: 800;">Success Achiever for NEET</p>
                     <p style="font-weight: 500;">6 Book Set</p>
-                    <p style="font-weight: 900;">₹ 12000</p>
+                    <p style="font-weight: 500;">₹ 12000</p>
                     </div>
                   
                   </div>
@@ -734,7 +950,9 @@ LEARN NEW SKILLS
               </div>
             </section>
 
-            <!-- ----------section-10---------- -->
+
+
+            <!-- ---------footer------- -->
             <section id="footer">
               
               <div class="container pt-5">
@@ -763,14 +981,14 @@ LEARN NEW SKILLS
                     <div class="column-1">
                       <h4>Courses</h4>
                      <ul>
-                      <li><a href="#"> <i class="fa-solid fa-arrow-right"></i> NEET (UG)</a></li>
-                      <li><a href="#"><i class="fa-solid fa-arrow-right"></i> JEE (Main & Advanced)</a></li>
-                      <li><a href="#"><i class="fa-solid fa-arrow-right"></i>
+                      <li><a href="courseNEET.html"> <i class="fa-solid fa-arrow-right"></i> NEET (UG)</a></li>
+                      <li><a href="courseJEE.html"><i class="fa-solid fa-arrow-right"></i> JEE (Main & Advanced)</a></li>
+                      <li><a href="course-pre-fndsn.html"><i class="fa-solid fa-arrow-right"></i>
                         Pre - Foundation
                         </a>
                       </li>
-                      <li><a href="#"><i class="fa-solid fa-arrow-right"></i> Online Course</a></li>
-                      <li><a href="#"><i class="fa-solid fa-arrow-right"></i> Distance Learning Programme</a></li>
+                      <li><a href="c"><i class="fa-solid fa-arrow-right"></i> Online Course</a></li>
+                      <li><a href="courseDistance.html"><i class="fa-solid fa-arrow-right"></i> Distance Learning Programme</a></li>
                      </ul>
                     </div>
                   </div>
@@ -901,8 +1119,34 @@ LEARN NEW SKILLS
               </div>
             </div>
             </section>
-            <!-- -----------------------------------whatappp--------- -->
-           
+                  
     </div>
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+      </script>
+      <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        </script>
   </body>
 </html>
